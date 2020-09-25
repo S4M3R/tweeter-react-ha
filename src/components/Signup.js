@@ -22,7 +22,6 @@ function Signup() {
   }
 
   useEffect(() => {
-    
     if(token !== ""){
       history.push('/tweets')
        
